@@ -1,0 +1,34 @@
+{
+  "date": "2026-11-07",
+  "generated_at": "2026-11-07T07:00:00+09:00",
+  "headline_summary": ["코스피 6% 급락, 빚투 담보 의무 3개월 면제", "조작기소 특검법 국회 본회의 통과", "미래에셋증권 해킹으로 고객 정보 유출"],
+  "top_story": {
+    "title": "특검법 통과, 야당은 표결 불참",
+    "summary": "6일 국회 본회의에서 조작기소 특검법이 찬성 167표로 통과됐어요. 야당이 요청한 필리버스터는 여당이 끝냈고, 공소취소 조항은 빠졌어요. 수사 기간은 최장 200일이고, 국민의힘은 7일 장외집회를 열겠다고 밝혔어요.",
+    "section": "종합",
+    "sources": [
+      {"name": "파이낸셜뉴스", "url": "https://www.fnnews.com/news/202611061802265727"},
+      {"name": "노컷뉴스", "url": "https://nocutnews.co.kr/news/6603452"}
+    ]
+  },
+  "sections": [
+    {"name": "종합", "items": [
+      {"title": "법무부 장관 후보에 이용철 지명", "summary": "대통령이 두 달 넘게 비어 있던 법무부 장관 자리에 방위사업청장을 지명했어요. 국세청장과 정무수석 후보도 함께 발표됐어요. 청문회에서는 검사 경력이 없는 점이 쟁점이 될 전망이에요.", "sources": [{"name": "파이낸셜뉴스", "url": "https://www.fnnews.com/news/202611061552055164"}, {"name": "머니투데이", "url": "https://www.mt.co.kr/society/2026/11/06/2026110615403485320"}]}
+    ]},
+    {"name": "경제", "items": [
+      {"title": "코스피 하루 6% 폭락, 5천선 아슬아슬", "summary": "6일 코스피가 6% 넘게 떨어져 5,059로 마감했어요. 장 초반 거래가 잠시 멈추는 조치도 나왔어요. 정부는 9일부터 3개월간 신용융자(빚내서 하는 주식투자) 담보비율 유지 의무를 면제해, 강제 청산을 막기로 했어요.", "sources": [{"name": "아시아경제", "url": "https://view.asiae.co.kr/article/2026110611472351961"}, {"name": "머니투데이", "url": "https://www.mt.co.kr/index.php/politics/2026/11/06/2026110618231829144"}, {"name": "뉴스핌", "url": "https://www.newspim.com/news/view/20261106000997"}]},
+      {"title": "미국 AI 규제 걱정에 세계 증시 출렁", "summary": "미국 중간선거 뒤 AI 규제 우려가 커지며 나스닥이 5% 넘게 내렸어요. 충격은 일본, 대만, 한국 증시로 번졌어요. 6일 뉴욕 증시는 다시 올랐어요.", "sources": [{"name": "서울경제(영문)", "url": "https://en.sedaily.com/international/2026/11/06/nasdaq-plunges-55-percent-into-correction-on-ai-regulation"}, {"name": "아시아경제", "url": "https://view.asiae.co.kr/article/2026110712184646990"}]}
+    ]},
+    {"name": "사회", "items": [
+      {"title": "스토킹 신고 반복됐는데 끝내 살인", "summary": "서울 은평에서 60대 남성이 전 연인인 70대 여성을 숨지게 한 혐의로 구속영장이 신청됐어요. 여성은 스토킹을 네 번 신고했고, 남성의 전자장치 부착 기간은 보름 전 끝났어요.", "sources": [{"name": "아시아경제", "url": "https://view.asiae.co.kr/article/2026110620504988915"}, {"name": "SBS", "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008832518"}]}
+    ]},
+    {"name": "IT·과학", "items": [
+      {"title": "미래에셋증권 해킹, 고객 계좌번호 유출", "summary": "미래에셋증권이 외부 해킹으로 고객 약 3,800명의 계좌번호가 새어 나갔다고 알렸어요. 주민번호 같은 민감 정보는 빠져나가지 않았어요. 회사는 접속 경로를 막고 당국에 신고했어요.", "sources": [{"name": "전자신문", "url": "https://www.etnews.com/20261107000011"}]},
+      {"title": "고팍스, 협박 메일 받고 거래 멈춤", "summary": "가상자산 거래소 고팍스가 해킹하겠다는 협박 메일을 받고 거래와 출금을 잠시 멈췄어요. 자산은 인터넷과 분리된 지갑으로 옮겼어요. 아직 실제 공격은 없었다고 해요.", "sources": [{"name": "전자신문", "url": "https://www.etnews.com/20261106000329"}]}
+    ]},
+    {"name": "국제", "items": [
+      {"title": "트럼프, 푸틴 특사 만나 종전 기대감", "summary": "트럼프 대통령이 러시아 특사를 백악관에서 따로 만났어요. 곧 큰 합의가 나올 거라 말했지만 내용은 밝히지 않았어요. 10~11일 아부다비에서 러시아와 우크라이나 협상이 열릴 예정이에요.", "sources": [{"name": "아시아경제", "url": "https://view.asiae.co.kr/article/2026110614152270221"}, {"name": "NBC News", "url": "https://nbcnews.com/world/russia/trump-says-met-putin-envoy-sees-ukraine-deal-soon-rcna607804"}]},
+      {"title": "중국, 미·중·러 정상회동 타진", "summary": "중국이 미국, 중국, 러시아 3국 정상이 만나는 방안을 관련국과 협의 중이라고 밝혔어요. 이달 아시아·태평양 경제협력체(APEC) 정상회의 때 열릴 수 있다는 관측이 있지만 확정된 건 없어요.", "sources": [{"name": "ANEWZ", "url": "https://anewz.tv/world/world-news/26405/trump-on-ukraine-peace-as-china-explores-xi-putin-summit/news"}]}
+    ]}
+  ]
+}

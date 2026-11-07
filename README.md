@@ -13,9 +13,10 @@
 
 ## 1. 저장소와 Pages
 
-1. 이 폴더를 **공개** 저장소 `news-briefing`으로 올린다
-2. Settings → Pages → Source: `Deploy from a branch`, Branch: `main` / `/docs`
-3. 주소(`https://아이디.github.io/news-briefing`)를 `SITE_BASE_URL`로 쓴다
+1. 이 저장소를 Fork해서 내 계정에 **공개** 저장소 `news-briefing`으로 만든다
+2. 원래 주인의 지난 호를 지운다: `bash scripts/reset_issues.sh` 실행 후 커밋·푸시 (Claude Code 세션에 "reset_issues.sh 실행하고 main에 푸시해줘"라고 해도 된다)
+3. Settings → Pages → Source: `Deploy from a branch`, Branch: `main` / `/docs`
+4. 주소(`https://아이디.github.io/news-briefing`)를 `SITE_BASE_URL`로 쓴다
 
 ## 2. 텔레그램
 

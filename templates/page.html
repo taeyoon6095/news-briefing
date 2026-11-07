@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<meta name="color-scheme" content="light dark">
+<title>{{TITLE}} {{DATE_KO}}</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@600;800&display=swap" rel="stylesheet">
+<style>
+:root {
+  --paper: #ffffff;
+  --ink: #1e2433;
+  --muted: #5b6375;
+  --rule: #e3e5ea;
+  --soft: #f3f4f7;
+  --sat: #2a5bd7;
+  --sun: #c8352b;
+  --slate: #4a5568; --green: #1f7a4d; --orange: #b85a12; --blue: #2a5bd7; --purple: #6b46c1;
+  --serif: "Noto Serif KR", "AppleMyungjo", "Nanum Myeongjo", serif;
+  --sans: -apple-system, "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --paper: #15171c; --ink: #e8eaf0; --muted: #a3aabb; --rule: #2c303a; --soft: #1e2128;
+    --sat: #7fa2ff; --sun: #ff8a7f;
+    --slate: #a9b4c6; --green: #5fd39a; --orange: #f2a65a; --blue: #7fa2ff; --purple: #b79cff;
+  }
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body { margin: 0; background: var(--paper); color: var(--ink); font: 17px/1.7 var(--sans); word-break: keep-all; overflow-wrap: anywhere; }
+a { color: inherit; }
+a:focus-visible { outline: 2px solid var(--blue); outline-offset: 2px; border-radius: 2px; }
+.wrap { max-width: 640px; margin: 0 auto; padding: 0 16px 48px; }
+
+.mast { display: grid; grid-template-columns: auto 1fr; gap: 4px 16px; align-items: end; padding: 28px 0 20px; border-bottom: 3px double var(--ink); }
+.day { grid-row: span 2; font: 800 88px/0.85 var(--serif); letter-spacing: -0.04em; color: var(--ink); }
+.day.sat { color: var(--sat); }
+.day.sun { color: var(--sun); }
+.paper-name { font: 800 22px/1.2 var(--serif); margin: 0; }
+.issue { color: var(--muted); font-size: 15px; margin: 0; }
+
+.three { margin: 20px 0 8px; padding: 0; list-style: none; counter-reset: n; }
+.three li { counter-increment: n; display: grid; grid-template-columns: 24px 1fr; gap: 8px; padding: 6px 0; font-weight: 600; }
+.three li::before { content: counter(n); font: 800 17px/1.7 var(--serif); color: var(--muted); }
+
+.listen { margin: 16px 0 0; padding: 12px 14px; background: var(--soft); border-radius: 10px; font-size: 15px; color: var(--muted); display: flex; gap: 10px; align-items: center; }
+.listen svg { flex: none; color: var(--ink); }
+
+.top { margin: 28px 0 8px; }
+.top h1 { font: 800 28px/1.35 var(--serif); margin: 6px 0 12px; letter-spacing: -0.01em; }
+.top p { margin: 0; font-size: 18px; }
+
+.tag { display: inline-flex; align-items: center; gap: 6px; font-size: 14px; font-weight: 700; color: var(--c); }
+.tag svg { width: 18px; height: 18px; }
+
+.sec { margin-top: 36px; --c: var(--slate); }
+.sec > h2 { margin: 0 0 4px; padding-bottom: 8px; border-bottom: 2px solid var(--c); }
+.sec > h2 .tag { font-size: 18px; }
+.c-slate { --c: var(--slate); } .c-green { --c: var(--green); } .c-orange { --c: var(--orange); } .c-blue { --c: var(--blue); } .c-purple { --c: var(--purple); }
+
+.item { padding: 16px 0; border-bottom: 1px solid var(--rule); }
+.item:last-child { border-bottom: 0; }
+.item h3 { font: 600 20px/1.45 var(--serif); margin: 0 0 6px; }
+.item p { margin: 0; }
+
+.src { margin-top: 10px; display: flex; flex-wrap: wrap; gap: 8px; }
+.src a { font-size: 14px; color: var(--muted); text-decoration: none; padding: 4px 10px; border: 1px solid var(--rule); border-radius: 999px; }
+.src a:hover { color: var(--ink); border-color: var(--muted); }
+
+.foot { margin-top: 44px; padding-top: 16px; border-top: 3px double var(--ink); font-size: 15px; color: var(--muted); }
+.foot a { font-weight: 700; color: var(--ink); }
+.foot p { margin: 6px 0; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="mast">
+    <div class="day {{DAY_CLASS}}" aria-hidden="true">{{DAY}}</div>
+    <p class="paper-name">{{TITLE}}</p>
+    <p class="issue">{{DATE_KO}}</p>
+  </header>
+
+  <ol class="three" aria-label="오늘의 세 줄">
+{{HEADLINES}}
+  </ol>
+
+  {{LISTEN}}
+
+  <article class="top c-{{TOP_COLOR}}">
+    <span class="tag">{{TOP_ICON}}{{TOP_SECTION}}</span>
+    <h1>{{TOP_TITLE}}</h1>
+    <p>{{TOP_SUMMARY}}</p>
+    <div class="src">{{TOP_SOURCES}}</div>
+  </article>
+
+{{SECTIONS}}
+
+  <footer class="foot">
+    <p><a href="{{BASE}}/archive.html">지난 호 보기</a></p>
+    <p>요약은 원문을 바탕으로 새로 썼습니다. 자세한 내용은 각 기사의 원문 링크에서 확인하세요.</p>
+  </footer>
+</div>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<meta name="color-scheme" content="light dark">
+<title>{{TITLE}} 지난 호</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@600;800&display=swap" rel="stylesheet">
+<style>
+:root { --paper: #ffffff; --ink: #1e2433; --muted: #5b6375; --rule: #e3e5ea; --sat: #2a5bd7; --sun: #c8352b;
+  --serif: "Noto Serif KR", "AppleMyungjo", "Nanum Myeongjo", serif;
+  --sans: -apple-system, "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", sans-serif; }
+@media (prefers-color-scheme: dark) { :root { --paper: #15171c; --ink: #e8eaf0; --muted: #a3aabb; --rule: #2c303a; --sat: #7fa2ff; --sun: #ff8a7f; } }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--paper); color: var(--ink); font: 17px/1.6 var(--sans); word-break: keep-all; overflow-wrap: anywhere; }
+.wrap { max-width: 640px; margin: 0 auto; padding: 28px 16px 48px; }
+h1 { font: 800 26px/1.3 var(--serif); margin: 0 0 4px; padding-bottom: 16px; border-bottom: 3px double var(--ink); }
+ul { list-style: none; margin: 0; padding: 0; }
+li a { display: grid; grid-template-columns: 56px 1fr; gap: 12px; align-items: baseline; padding: 14px 0; border-bottom: 1px solid var(--rule); text-decoration: none; color: inherit; }
+li a:focus-visible { outline: 2px solid var(--sat); outline-offset: 2px; }
+.d { font: 800 32px/1 var(--serif); text-align: right; }
+.d.sat { color: var(--sat); } .d.sun { color: var(--sun); }
+.when { display: block; font-size: 14px; color: var(--muted); }
+.what { font-weight: 600; }
+.back { display: inline-block; margin-top: 24px; font-weight: 700; color: var(--ink); }
+.empty { color: var(--muted); padding: 16px 0; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>지난 호</h1>
+  <ul>
+{{ISSUES}}
+  </ul>
+  <a class="back" href="{{BASE}}/">오늘 신문으로</a>
+</div>
+</body>
+</html>

@@ -81,6 +81,7 @@ def render_page(data: dict, cfg: dict, base: str) -> str:
     template = (ROOT / "templates" / "page.html").read_text(encoding="utf-8")
     return fill(template, {
         "TITLE": escape(cfg["title"]),
+        "DATE": date,
         "DATE_KO": escape(korean_date(date)),
         "DAY": str(int(date[-2:])),
         "DAY_CLASS": day_class(date),

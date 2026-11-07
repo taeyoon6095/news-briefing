@@ -1,0 +1,31 @@
+{
+  "title": "우리집 아침신문",
+  "timezone": "Asia/Seoul",
+  "sections": [
+    {"name": "종합", "items": 3, "color": "slate", "icon": "paper"},
+    {"name": "경제", "items": 3, "color": "green", "icon": "chart"},
+    {"name": "사회", "items": 3, "color": "orange", "icon": "people"},
+    {"name": "IT·과학", "items": 2, "color": "blue", "icon": "chip"},
+    {"name": "국제", "items": 2, "color": "purple", "icon": "globe"}
+  ],
+  "tts": {
+    "language_code": "ko-KR",
+    "voice": "ko-KR-Neural2-C",
+    "speaking_rate": 1.0,
+    "max_request_bytes": 4500,
+    "chars_per_minute": 300
+  },
+  "limits": {
+    "max_duration_sec": 600,
+    "max_script_chars": 3000,
+    "headline_lines": 3
+  },
+  "telegram": {
+    "audio_title_suffix": "아침 브리핑",
+    "performer": "아침 브리핑",
+    "retries": 3
+  },
+  "site": {
+    "page_wait_timeout_sec": 300
+  }
+}

@@ -7,12 +7,11 @@ claude.ai/code/routines에서 루틴을 만들 때 아래 블록을 그대로 �
 
 1. CLAUDE.md와 news-briefing 스킬 규칙을 따른다.
 2. config/briefing.json의 분야마다 section-reporter 서브에이전트를 병렬로 실행해 기사 후보를 모은다. 각 서브에이전트에 분야 이름과 오늘 날짜를 함께 준다.
-3. 후보를 합쳐 briefings/오늘날짜.json과 briefings/오늘날짜.script.txt를 작성한다. audio.duration_sec은 0으로 둔다.
+3. 후보를 합쳐 briefings/오늘날짜.json을 작성한다.
 4. editor 서브에이전트로 검수하고 지적 사항을 반영한다. 출처 URL이 열리지 않는 기사는 빼거나 다른 출처로 바꾼다.
 5. scripts/run_daily.sh 오늘날짜 를 실행한다.
-6. 출력에 FAILED_STEP=tts-too-long(종료 코드 2)이 나오면 가장 뒤쪽 분야의 기사부터 하나씩 원고와 JSON에서 함께 빼고 5번을 다시 실행한다. 최대 2회.
-7. 다른 FAILED_STEP이 나오거나 2회 뒤에도 길면, python3 scripts/send_telegram.py 오늘날짜 --fail "단계이름" 을 실행하고 끝낸다.
-8. 마지막에 발송 결과를 한 줄로 남긴다: 기사 수, 재생 시간, 페이지 링크.
+6. FAILED_STEP이 나오면 python3 scripts/send_telegram.py 오늘날짜 --fail "단계이름" 을 실행하고 끝낸다.
+7. 마지막에 발송 결과를 한 줄로 남긴다: 기사 수, 페이지 링크.
 ```
 
 ## 루틴 설정값
@@ -20,7 +19,7 @@ claude.ai/code/routines에서 루틴을 만들 때 아래 블록을 그대로 �
 | 항목 | 값 |
 |---|---|
 | 이름 | 아침 뉴스 브리핑 |
-| 저장소 | news-briefing |
+| 저장소 | taeyoon6095/news-briefing |
 | 트리거 | 일정, 매일 06:45 (KST), 발송 시각 15분 전 |
 | 환경 | README의 환경 변수와 네트워크 허용 목록 |
 | 브랜치 | main에 직접 푸시 허용 |

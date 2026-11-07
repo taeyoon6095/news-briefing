@@ -1,6 +1,5 @@
 import argparse
 import json
-import math
 import re
 import shutil
 import sys
@@ -17,11 +16,6 @@ ICONS = {
     "chip": '<rect x="7" y="7" width="10" height="10" rx="1.5"/><path d="M10 3v4M14 3v4M10 17v4M14 17v4M3 10h4M3 14h4M17 10h4M17 14h4"/>',
     "globe": '<circle cx="12" cy="12" r="8.5"/><path d="M3.5 12h17M12 3.5c2.4 2.4 3.5 5.3 3.5 8.5s-1.1 6.1-3.5 8.5c-2.4-2.4-3.5-5.3-3.5-8.5S9.6 5.9 12 3.5Z"/>',
 }
-SPEAKER = ('<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" '
-           'stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 10v4h4l5 4V6L8 10H4Z"/>'
-           '<path d="M16.5 9a4 4 0 0 1 0 6M19 6.5a7.5 7.5 0 0 1 0 11"/></svg>')
-
-
 def icon(name: str) -> str:
     return ('<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" '
             f'stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">{ICONS.get(name, ICONS["paper"])}</svg>')
@@ -58,12 +52,6 @@ def render_page(data: dict, cfg: dict, base: str) -> str:
 
     headlines = "\n".join(f"    <li>{escape(line)}</li>" for line in data["headline_summary"])
 
-    minutes = math.ceil(float(data.get("audio", {}).get("duration_sec") or 0) / 60)
-    listen_text = "아나운서 음성 브리핑은 텔레그램 가족방에서 들을 수 있어요."
-    if minutes:
-        listen_text += f" 약 {minutes}분 분량입니다."
-    listen = f'<p class="listen">{SPEAKER}<span>{escape(listen_text)}</span></p>'
-
     blocks = []
     for sec in data["sections"]:
         m = meta.get(sec["name"], {"color": "slate", "icon": "paper"})
@@ -86,7 +74,6 @@ def render_page(data: dict, cfg: dict, base: str) -> str:
         "DAY": str(int(date[-2:])),
         "DAY_CLASS": day_class(date),
         "HEADLINES": headlines,
-        "LISTEN": listen,
         "TOP_COLOR": top_meta["color"],
         "TOP_ICON": icon(top_meta["icon"]),
         "TOP_SECTION": escape(top["section"]),
@@ -125,7 +112,7 @@ def main() -> int:
     ap.add_argument("--dry-run", action="store_true", help="docs/ 대신 out/site-preview/에 생성")
     args = ap.parse_args()
 
-    date, json_path, _ = resolve(args.date)
+    date, json_path = resolve(args.date)
     cfg = load_config()
     data = json.loads(json_path.read_text(encoding="utf-8"))
 

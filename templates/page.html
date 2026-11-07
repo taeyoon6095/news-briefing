@@ -48,8 +48,6 @@ a:focus-visible { outline: 2px solid var(--blue); outline-offset: 2px; border-ra
 .three li { counter-increment: n; display: grid; grid-template-columns: 24px 1fr; gap: 8px; padding: 6px 0; font-weight: 600; }
 .three li::before { content: counter(n); font: 800 17px/1.7 var(--serif); color: var(--muted); }
 
-.listen { margin: 16px 0 0; padding: 12px 14px; background: var(--soft); border-radius: 10px; font-size: 15px; color: var(--muted); display: flex; gap: 10px; align-items: center; }
-.listen svg { flex: none; color: var(--ink); }
 
 .top { margin: 28px 0 8px; }
 .top h1 { font: 800 28px/1.35 var(--serif); margin: 6px 0 12px; letter-spacing: -0.01em; }
@@ -88,8 +86,6 @@ a:focus-visible { outline: 2px solid var(--blue); outline-offset: 2px; border-ra
   <ol class="three" aria-label="오늘의 세 줄">
 {{HEADLINES}}
   </ol>
-
-  {{LISTEN}}
 
   <article class="top c-{{TOP_COLOR}}">
     <span class="tag">{{TOP_ICON}}{{TOP_SECTION}}</span>

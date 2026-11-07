@@ -11,7 +11,7 @@ def main() -> int:
     ap.add_argument("--dry-run", action="store_true")
     args = ap.parse_args()
 
-    date, _, _ = resolve(args.date)
+    date, _ = resolve(args.date)
     timeout = load_config()["site"]["page_wait_timeout_sec"]
     if args.dry_run:
         print(f"[wait_page] dry-run: 실제 실행 시 {date} 지면을 최대 {timeout}초 기다림")

@@ -1,21 +1,10 @@
 import argparse
 import json
-import re
 import sys
 from datetime import datetime
 from urllib.parse import urlparse
 
 from common import DATE_RE, load_config, resolve
-
-EMOJI_RE = re.compile("[\U0001F000-\U0001FAFF☀-➿⬀-⯿️]")
-FORBIDDEN = {
-    "URL": re.compile(r"https?://|www\.", re.I),
-    "괄호": re.compile(r"[()\[\]{}（）「」『』<>]"),
-    "목록 기호": re.compile(r"^\s*([-*•·▶■□●○]|\d+[.)])\s", re.M),
-    "마크다운": re.compile(r"[#*_`|]"),
-}
-CLOSING = "지금까지 아침 브리핑이었습니다."
-
 
 def check_url(url: str) -> bool:
     try:
@@ -97,42 +86,16 @@ def validate_json(data: dict, date: str, cfg: dict) -> list[str]:
                 elif url:
                     seen_urls[url] = where
 
-    audio = data.get("audio", {})
-    if not isinstance(audio, dict) or not isinstance(audio.get("duration_sec", 0), (int, float)):
-        errors.append("audio.duration_sec는 숫자여야 함")
-    return errors
-
-
-def validate_script(text: str, date: str, cfg: dict) -> list[str]:
-    errors: list[str] = []
-    limit = cfg["limits"]["max_script_chars"]
-    length = len(text.strip())
-    if length == 0:
-        return ["원고가 비어 있음"]
-    if length > limit:
-        errors.append(f"원고 {length}자, 상한 {limit}자 초과")
-    d = datetime.strptime(date, "%Y-%m-%d")
-    opening = f"안녕하십니까, {d.month}월 {d.day}일 아침 뉴스 브리핑입니다."
-    if not text.strip().startswith(opening):
-        errors.append(f"오프닝 문구 불일치 (기대: {opening})")
-    if not text.strip().endswith(CLOSING):
-        errors.append(f"클로징 문구 불일치 (기대: {CLOSING})")
-    for label, pattern in FORBIDDEN.items():
-        m = pattern.search(text)
-        if m:
-            errors.append(f"원고에 {label} 사용: {m.group(0).strip()!r}")
-    if EMOJI_RE.search(text):
-        errors.append("원고에 이모지 사용")
     return errors
 
 
 def main() -> int:
-    ap = argparse.ArgumentParser(description="브리핑 JSON과 원고 검사")
+    ap = argparse.ArgumentParser(description="브리핑 JSON 검사")
     ap.add_argument("date", nargs="?", default="today", help="YYYY-MM-DD | today | sample")
     ap.add_argument("--dry-run", action="store_true", help="검사만 하므로 동작은 같음")
     args = ap.parse_args()
 
-    date, json_path, script_path = resolve(args.date)
+    date, json_path = resolve(args.date)
     cfg = load_config()
     errors: list[str] = []
 
@@ -144,11 +107,6 @@ def main() -> int:
             errors += validate_json(data, date, cfg)
         except json.JSONDecodeError as e:
             errors.append(f"JSON 문법 오류: {e}")
-
-    if not script_path.exists():
-        errors.append(f"파일 없음: {script_path.name}")
-    else:
-        errors += validate_script(script_path.read_text(encoding="utf-8"), date, cfg)
 
     if errors:
         print(f"[validate] 실패 {len(errors)}건")

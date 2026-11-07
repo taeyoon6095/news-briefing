@@ -18,21 +18,16 @@ def load_config() -> dict:
     return json.loads((ROOT / "config" / "briefing.json").read_text(encoding="utf-8"))
 
 
-def resolve(arg: str | None) -> tuple[str, Path, Path]:
+def resolve(arg: str | None) -> tuple[str, Path]:
     if arg in (None, "", "today"):
         arg = today_kst()
     if arg == "sample":
         json_path = ROOT / "briefings" / "sample.json"
-        script_path = ROOT / "briefings" / "sample.script.txt"
         date = json.loads(json_path.read_text(encoding="utf-8"))["date"]
-        return date, json_path, script_path
+        return date, json_path
     if not DATE_RE.match(arg):
         raise SystemExit(f"날짜 형식 오류: {arg} (YYYY-MM-DD, today, sample 중 하나)")
-    return arg, ROOT / "briefings" / f"{arg}.json", ROOT / "briefings" / f"{arg}.script.txt"
-
-
-def audio_path(date: str) -> Path:
-    return ROOT / "out" / f"{date}.mp3"
+    return arg, ROOT / "briefings" / f"{arg}.json"
 
 
 def korean_date(date: str) -> str:
@@ -55,7 +50,7 @@ def require_env(name: str) -> str:
 
 
 def mask(text: str) -> str:
-    for name in ("TELEGRAM_BOT_TOKEN", "GOOGLE_TTS_API_KEY", "TELEGRAM_CHAT_ID"):
+    for name in ("TELEGRAM_BOT_TOKEN", "TELEGRAM_CHAT_ID"):
         value = os.environ.get(name)
         if value:
             text = text.replace(value, f"<{name}>")

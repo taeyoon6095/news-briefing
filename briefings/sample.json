@@ -1,0 +1,47 @@
+{
+  "date": "2026-11-08",
+  "generated_at": "2026-11-08T06:55:00+09:00",
+  "headline_summary": [
+    "[샘플] 정부, 내년 생활물가 안정 대책 발표",
+    "[샘플] 수도권 첫 영하권 추위, 출근길 빙판 주의",
+    "[샘플] 국내 연구진, 저전력 AI 반도체 시제품 공개"
+  ],
+  "top_story": {
+    "title": "[샘플] 정부, 생활물가 안정 대책 내놔",
+    "summary": "이 문장은 레이아웃 확인용 샘플입니다. 정부가 식료품과 에너지 요금을 중심으로 한 물가 안정 대책을 발표했다는 가상의 기사입니다. 대책에는 할인 지원과 공급 확대 방안이 함께 담겼다고 가정합니다. 실제 운영에서는 이 자리에 Claude가 직접 쓴 3~5문장 요약이 들어갑니다.",
+    "section": "종합",
+    "sources": [
+      {"name": "예시일보", "url": "https://www.example.com/news/1001"},
+      {"name": "샘플경제", "url": "https://www.example.org/article/2001"}
+    ]
+  },
+  "sections": [
+    {
+      "name": "경제",
+      "items": [
+        {"title": "[샘플] 기준금리 동결 전망 우세", "summary": "레이아웃 확인용 샘플 기사입니다. 시장에서는 이번 달 기준금리가 동결될 것이라는 전망이 많다고 가정합니다.", "sources": [{"name": "샘플경제", "url": "https://www.example.org/article/2002"}]},
+        {"title": "[샘플] 수출 석 달 연속 증가", "summary": "레이아웃 확인용 샘플 기사입니다. 반도체와 자동차가 수출 증가를 이끌었다는 가상의 내용입니다. 요약은 두세 문장으로 씁니다.", "sources": [{"name": "예시일보", "url": "https://www.example.com/news/1002"}]}
+      ]
+    },
+    {
+      "name": "사회",
+      "items": [
+        {"title": "[샘플] 수도권 첫 영하권, 빙판길 주의", "summary": "레이아웃 확인용 샘플 기사입니다. 내일 아침 수도권 기온이 처음으로 영하로 내려간다는 가상의 예보입니다.", "sources": [{"name": "예시방송", "url": "https://www.example.net/weather/3001"}]},
+        {"title": "[샘플] 지하철 막차 연장 시범 운영", "summary": "레이아웃 확인용 샘플 기사입니다. 연말 기간 일부 노선의 막차 시간이 늦춰진다는 가상의 내용입니다.", "sources": [{"name": "예시일보", "url": "https://www.example.com/news/1003"}]}
+      ]
+    },
+    {
+      "name": "IT·과학",
+      "items": [
+        {"title": "[샘플] 저전력 AI 반도체 시제품 공개", "summary": "레이아웃 확인용 샘플 기사입니다. 국내 연구진이 전력 소모를 크게 줄인 AI 반도체를 선보였다는 가상의 내용입니다.", "sources": [{"name": "샘플테크", "url": "https://www.example.org/tech/4001"}]}
+      ]
+    },
+    {
+      "name": "국제",
+      "items": [
+        {"title": "[샘플] 기후 회의, 감축 목표 합의 진통", "summary": "레이아웃 확인용 샘플 기사입니다. 국제 기후 회의에서 각국이 감축 목표를 두고 이견을 좁히지 못했다는 가상의 내용입니다.", "sources": [{"name": "예시방송", "url": "https://www.example.net/world/5001"}, {"name": "예시일보", "url": "https://www.example.com/news/1004"}]}
+      ]
+    }
+  ],
+  "audio": {"duration_sec": 0}
+}

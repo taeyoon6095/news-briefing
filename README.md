@@ -35,11 +35,9 @@
 | `TELEGRAM_CHAT_ID` | 시험 중엔 개인 ID, 이후 가족방 ID |
 | `SITE_BASE_URL` | `https://아이디.github.io/news-briefing` (끝에 `/` 없이) |
 
-네트워크 허용 목록:
+네트워크 접근: **Full**
 
-- `api.telegram.org`
-- `아이디.github.io` (페이지 반영 확인용)
-- `pypi.org`, `files.pythonhosted.org`
+뉴스 기사를 직접 열어 확인해야 하는데 언론사 도메인이 너무 많아서, Custom 허용 목록으로는 수집이 실패한다. 외부 패키지는 쓰지 않으므로 셋업 스크립트는 필요 없다.
 
 브랜치: 루틴이 `main`에 직접 푸시할 수 있도록 설정한다. 기본값이 `claude/` 브랜치만 허용이면 Pages가 갱신되지 않는다.
 

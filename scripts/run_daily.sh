@@ -27,11 +27,6 @@ step() {
   "$@"
 }
 
-if [ -z "$DRY" ]; then
-  $PY -c "import requests" 2>/dev/null \
-    || step "패키지 설치" $PY -m pip install -q -r requirements.txt || fail "패키지 설치"
-fi
-
 [ "$DATE" = "today" ] && DATE="$(date +%F)"
 echo "== 날짜 $DATE (KST) ${DRY:+[dry-run]}"
 

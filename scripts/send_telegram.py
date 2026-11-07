@@ -2,6 +2,9 @@ import argparse
 import json
 import sys
 import time
+import urllib.error
+import urllib.parse
+import urllib.request
 from html import escape
 
 from common import korean_date, load_config, mask, require_env, resolve, site_base, today_kst
@@ -9,25 +12,36 @@ from common import korean_date, load_config, mask, require_env, resolve, site_ba
 API = "https://api.telegram.org/bot{token}/{method}"
 
 
-def send(text: str, html: bool, retries: int) -> None:
-    import requests
+def post(url: str, payload: dict) -> tuple[int, dict]:
+    data = urllib.parse.urlencode(payload).encode()
+    req = urllib.request.Request(url, data=data, method="POST")
+    try:
+        with urllib.request.urlopen(req, timeout=30) as r:
+            return r.status, json.loads(r.read().decode())
+    except urllib.error.HTTPError as e:
+        try:
+            return e.code, json.loads(e.read().decode())
+        except ValueError:
+            return e.code, {}
 
+
+def send(text: str, html: bool, retries: int) -> None:
     token, chat = require_env("TELEGRAM_BOT_TOKEN"), require_env("TELEGRAM_CHAT_ID")
     payload = {"chat_id": chat, "text": text}
     if html:
         payload["parse_mode"] = "HTML"
+    url = API.format(token=token, method="sendMessage")
     last = ""
     for attempt in range(1, retries + 1):
         try:
-            r = requests.post(API.format(token=token, method="sendMessage"), data=payload, timeout=30)
-            body = r.json()
+            status, body = post(url, payload)
         except Exception as e:
             last = type(e).__name__
         else:
             if body.get("ok"):
                 return
-            last = f"HTTP {r.status_code} {mask(str(body.get('description', '')))[:200]}"
-            if r.status_code == 400:
+            last = f"HTTP {status} {mask(str(body.get('description', '')))[:200]}"
+            if status == 400:
                 break
             wait = body.get("parameters", {}).get("retry_after")
             if wait:

@@ -1,0 +1,287 @@
+{
+  "date": "2026-11-10",
+  "generated_at": "2026-11-10T06:50:00+09:00",
+  "headline_summary": [
+    "엔비디아 CEO 스캔들, 이사회 조사 시작",
+    "특검법 국회 통과, 오늘 국무회의 예정",
+    "코스피 5,000선 턱걸이, 외국인 7일째 매도"
+  ],
+  "top_story": {
+    "title": "엔비디아 황 CEO 스캔들에 이사회 조사",
+    "summary": "엔비디아의 젠슨 황 CEO가 외도를 직원들에게 인정했습니다. 상대 여성이 중국 정보기관과 이어졌다는 의혹이 나와, 이사회가 외부 변호사와 함께 조사하기로 했습니다. 회사는 국가 안보가 새어 나간 근거는 없다고 밝혔고, 미국 의회는 직접 설명을 요구했습니다. 우리나라 반도체 기업의 AI 칩 공급에도 영향이 있을지 지켜보는 중입니다.",
+    "section": "종합",
+    "sources": [
+      {
+        "name": "코리아헤럴드",
+        "url": "https://www.koreaherald.com/article/10930899"
+      },
+      {
+        "name": "코리아타임스",
+        "url": "https://www.koreatimes.co.kr/business/companies/20261109/jensen-huang-affair-casts-shadow-over-nvidias-korea-partnerships"
+      },
+      {
+        "name": "지디넷코리아",
+        "url": "https://zdnet.co.kr/view/?no=20261109083723"
+      },
+      {
+        "name": "전자신문",
+        "url": "https://www.etnews.com/20261109000007"
+      },
+      {
+        "name": "알자지라",
+        "url": "https://www.aljazeera.com/economy/2026/11/9/nvidia-shares-slump-amid-investigation-into-ceo-jensen-huang"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "name": "종합",
+      "items": [
+        {
+          "title": "특검법 국회 통과, 여야 정면충돌",
+          "summary": "야당이 불참한 가운데 특검법이 국회를 넘었습니다. 수사 대상 12건 중 6건이 대통령 관련 사건입니다. 국민의힘은 재판을 피하려는 법이라며 반발합니다. 오늘 국무회의 의결이 예상되지만 확정은 아닙니다.",
+          "sources": [
+            {
+              "name": "코리아타임스",
+              "url": "https://www.koreatimes.co.kr/southkorea/politics/20261109/cover-story-special-counsel-bill-deepens-partisan-rift-over-impact-on-lees-suspended-trials"
+            }
+          ]
+        },
+        {
+          "title": "외국인 관광객 많아도 여행수지는 적자",
+          "summary": "9월 여행수지 적자가 약 5억 달러로 8월보다 커졌습니다. 올해 방한 외국인은 2천만 명에 육박하지만, 해외로 나가 쓰는 돈도 함께 늘었습니다.",
+          "sources": [
+            {
+              "name": "코리아타임스",
+              "url": "https://www.koreatimes.co.kr/economy/20261109/foreign-tourist-boom-fails-to-lift-koreas-tourism-balance"
+            }
+          ]
+        },
+        {
+          "title": "미 중간선거에서 한인 의원 7명 확보",
+          "summary": "댄 고 후보가 당선돼 한인 연방 하원의원이 일곱 명이 됐습니다. 반면 영 김 의원은 고전 중입니다. 한국에 우호적인 공화당 의원이 줄 수 있어 정부의 의회 접촉이 중요해졌습니다.",
+          "sources": [
+            {
+              "name": "코리아타임스",
+              "url": "https://www.koreatimes.co.kr/foreignaffairs/20261109/more-korean-americans-in-congress-fewer-republican-allies-what-it-means-for-seoul"
+            }
+          ]
+        },
+        {
+          "title": "그리스 크레타 바다에서 이주민 21명 숨져",
+          "summary": "아프리카를 떠나 크레타섬으로 향하던 배에서 주말에 21명이 사망했다고 그리스 당국이 밝혔습니다. 생존자 대부분은 수단 사람입니다. 밀입국을 도운 혐의로 2명이 붙잡혔습니다.",
+          "sources": [
+            {
+              "name": "코리아헤럴드",
+              "url": "https://www.koreaherald.com/article/10931223"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "경제",
+      "items": [
+        {
+          "title": "코스피 5,000선 간신히 지켜, 외국인 순매도",
+          "summary": "어제 코스피는 0.8% 내린 5,018로 마쳤습니다. 외국인이 7거래일째 주식을 팔았고 기관이 받쳐 줬습니다. 환율은 1,347원대로 내렸습니다.",
+          "sources": [
+            {
+              "name": "Businesskorea",
+              "url": "https://www.businesskorea.co.kr/news/articleView.html?idxno=280833"
+            }
+          ]
+        },
+        {
+          "title": "빚투 강제처분 유예, 증시 불안 다소 진정",
+          "summary": "정부가 주가 급락에 따른 연쇄 강제 처분을 막으려 증권사 담보 비율 규정을 9일부터 석 달간 풀었습니다. 그 덕에 시장 불안을 보여 주는 변동성지수가 8일 만에 내렸습니다. 다만 빚투 잔액은 그대로라 불안은 남아 있습니다.",
+          "sources": [
+            {
+              "name": "이투데이",
+              "url": "https://www.etoday.co.kr/news/view/2645911"
+            },
+            {
+              "name": "SBS Biz",
+              "url": "https://biz.sbs.co.kr/amp/article/20000344738"
+            },
+            {
+              "name": "머니투데이",
+              "url": "https://www.mt.co.kr/article/2026110614220822255"
+            }
+          ]
+        },
+        {
+          "title": "씨티은행, 반도체 따라 금리 경로 갈릴 것",
+          "summary": "반도체 수출이 꺾이면 한국은행이 이달 3.25%로 올린 뒤 멈출 수 있다고 봤습니다. 반도체가 계속 좋으면 내년 2월 한 번 더 올려 3.5%가 된다는 전망입니다.",
+          "sources": [
+            {
+              "name": "파이낸셜뉴스",
+              "url": "https://www.fnnews.com/news/202611090928491656"
+            },
+            {
+              "name": "한국경제TV",
+              "url": "https://www.wowtv.co.kr/NewsCenter/News/Read?articleId=A202611090066"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "사회",
+      "items": [
+        {
+          "title": "사드 정보 유출 사건, 전직 안보 수장들 구형",
+          "summary": "검찰 측이 정의용 전 안보실장과 정경두 전 장관에게 징역 10개월을 요구했습니다. 서주석 전 차관에게는 징역 2년을 요구했습니다. 선고는 다음 달 21일입니다.",
+          "sources": [
+            {
+              "name": "뉴스1",
+              "url": "https://www.news1.kr/society/court-prosecution/6347993"
+            },
+            {
+              "name": "세계일보",
+              "url": "https://www.segye.com/newsView/20261109514750"
+            }
+          ]
+        },
+        {
+          "title": "지하철 잠든 여성 성폭행한 60대 구속 송치",
+          "summary": "2호선 열차에서 잠든 20대 여성을 다치게 한 65세 남성이 구속된 채 검찰로 넘겨졌습니다. 남성은 혐의를 부인합니다. 피해 여성은 치료를 받고 있습니다.",
+          "sources": [
+            {
+              "name": "세계일보",
+              "url": "https://www.segye.com/newsView/20261109509092"
+            }
+          ]
+        },
+        {
+          "title": "택배 왔다며 전 연인 불러내 흉기 위협",
+          "summary": "택배가 왔다는 문자로 전 연인을 집 앞에 나오게 해 다치게 한 40대가 구속 송치됐습니다. 경찰은 CCTV와 버스 영상으로 이동 경로를 쫓아 구미에서 잡았습니다.",
+          "sources": [
+            {
+              "name": "서플(연합뉴스 기사 전재)",
+              "url": "https://supple.kr/news/cmw8yb8c2v47val9p8a8z0185"
+            }
+          ]
+        },
+        {
+          "title": "지인 돈 1억 넘게 가로챈 사무장 실형",
+          "summary": "광주지법이 지인들에게서 1억 1천만 원 넘게 가로챈 법무사 사무장에게 징역 1년 6개월을 선고했습니다. 잘못을 인정하고 일부 갚은 점이 형량에 반영됐습니다.",
+          "sources": [
+            {
+              "name": "노컷뉴스",
+              "url": "https://www.nocutnews.co.kr/news/6604225"
+            }
+          ]
+        },
+        {
+          "title": "칠곡 상가주택 새벽 불, 다친 사람 없어",
+          "summary": "9일 새벽 경북 칠곡 왜관읍 4층 건물 1층에서 불이 나 30분쯤 뒤 꺼졌습니다. 인명 피해는 없었고 원인을 조사 중입니다.",
+          "sources": [
+            {
+              "name": "세계일보",
+              "url": "https://www.segye.com/newsView/20261109503624"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "IT·과학",
+      "items": [
+        {
+          "title": "미국, 클라우드 통한 AI 칩 원격 이용도 통제 추진",
+          "summary": "미 의회가 해외 고객이 클라우드로 고성능 칩을 쓰는 것도 허가를 받게 하는 법을 추진합니다. 하원은 통과했고 상원은 아직입니다. 국내 AI·클라우드 기업은 고객 확인 체계를 점검해야 합니다.",
+          "sources": [
+            {
+              "name": "지디넷코리아",
+              "url": "https://zdnet.co.kr/view/?no=20261109134146"
+            }
+          ]
+        },
+        {
+          "title": "SK텔레콤·엔비디아·리벨리온 칩 협력",
+          "summary": "세 회사가 엔비디아 칩과 국산 AI 반도체(NPU)를 한 데이터센터에서 함께 쓰는 협력을 밝혔습니다. 엔비디아가 관련 설계 기술을 리벨리온에 열어 주기로 했습니다.",
+          "sources": [
+            {
+              "name": "전자신문",
+              "url": "https://www.etnews.com/20261109000354"
+            }
+          ]
+        },
+        {
+          "title": "갤럭시 S27, 비싼 모델 비중 70%로",
+          "summary": "삼성전자가 내년 S27 시리즈에서 프로와 울트라를 전체의 70% 정도로 계획한 것으로 전해졌습니다. 부품값이 오르자 고가 모델을 더 팔겠다는 뜻으로 보입니다.",
+          "sources": [
+            {
+              "name": "전자신문",
+              "url": "https://www.etnews.com/20261109000231"
+            }
+          ]
+        },
+        {
+          "title": "삼성, 현대차그룹 임원 초청해 협력 다짐",
+          "summary": "삼성전자가 9일 현대차그룹 경영진 등 177명을 초청해 감사 행사를 열었습니다. 차량용 반도체 협력을 로봇과 피지컬 AI 분야로 넓히겠다고 밝혔습니다.",
+          "sources": [
+            {
+              "name": "전자신문",
+              "url": "https://www.etnews.com/20261109000305"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "국제",
+      "items": [
+        {
+          "title": "폴란드 크라쿠프 총격범 사망, 이틀 애도",
+          "summary": "주말 광장에서 6명을 숨지게 한 24세 용의자가 병원에서 숨졌습니다. 그의 집에서도 시신 3구가 발견됐습니다. 당국은 극우 성향 테러로 보고 수사 중이며 폴란드는 이틀간 애도 기간을 정했습니다.",
+          "sources": [
+            {
+              "name": "유로뉴스",
+              "url": "https://www.euronews.com/2026/11/09/krakow-main-square-shooting-suspect-dies-in-hospital-police-say"
+            },
+            {
+              "name": "알자지라",
+              "url": "https://www.aljazeera.com/news/2026/11/9/poland-mass-shooting-assailant-dies-in-hospital-police-say"
+            }
+          ]
+        },
+        {
+          "title": "러시아·우크라이나 아부다비 협상 앞두고 공습",
+          "summary": "미국이 중재하는 협상이 10~11일 아부다비에서 열립니다. 유럽은 협상 자리에 참여하려 애쓰고 있습니다. 협상 직전 러시아의 에너지 시설 공격으로 수십만 명이 정전을 겪었습니다.",
+          "sources": [
+            {
+              "name": "유로뉴스",
+              "url": "https://www.euronews.com/2026/11/09/europe-searches-for-a-seat-at-the-table-in-abu-dhabi"
+            },
+            {
+              "name": "알자지라",
+              "url": "https://aljazeera.com/news/2026/11/8/russian-strikes-on-ukraine-leave-hundreds-of-thousands-without-electricity"
+            }
+          ]
+        },
+        {
+          "title": "트럼프, 중간선거 결과에 다시 의문 제기",
+          "summary": "민주당이 상하원을 차지한 중간선거에 대해 트럼프 대통령이 SNS에서 공정했는지 의문을 던졌습니다. 며칠 전 결과를 받아들이겠다던 말과 달라졌고 근거는 내놓지 않았습니다.",
+          "sources": [
+            {
+              "name": "알자지라",
+              "url": "https://www.aljazeera.com/news/2026/11/9/trump-reverses-stance-alleges-fraud-in-recent-us-midterm-elections"
+            }
+          ]
+        },
+        {
+          "title": "이란 전쟁 종식 기대와 이란의 조건",
+          "summary": "트럼프 대통령은 카타르 총리를 만난 뒤 전쟁이 끝나는 쪽으로 가고 있다고 말했습니다. 이란은 해상 봉쇄와 제재를 풀고 동결 자산을 돌려줘야 평화가 가능하다고 맞섭니다.",
+          "sources": [
+            {
+              "name": "알자지라",
+              "url": "https://www.aljazeera.com/news/liveblog/2026/11/9/iran-war-live-trump-says-land-blockade-in-effect-drone-cuts-power-in-iraq"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,176 @@
+{
+  "date": "2026-11-11",
+  "generated_at": "2026-11-11T06:50:00+09:00",
+  "headline_summary": [
+    "대통령, 오늘 여당과 종합부동산세 논의",
+    "코스피 4%대 급등, 5200선 회복",
+    "미국·이란 종전 협상 줄다리기 계속"
+  ],
+  "top_story": {
+    "title": "대통령·여당 지도부 저녁 회동, 종부세 쟁점",
+    "summary": "이재명 대통령이 오늘 저녁 여당 대표 등과 식사를 함께합니다. 8월 이후 약 석 달 만의 만남입니다. 여당은 집 한 채 가진 사람의 종합부동산세(종부세) 공제 기준을 14억 원으로 올리자고 합니다. 청와대와 정부는 소극적이라 의견을 맞추는 일이 관건입니다.",
+    "section": "종합",
+    "sources": [
+      {
+        "name": "뉴스1",
+        "url": "https://news1.kr/politics/president/6349746"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "name": "경제",
+      "items": [
+        {
+          "title": "코스피 하루 4% 넘게 올라 5200선 회복",
+          "summary": "10일 코스피가 4% 넘게 올라 5,239에 마감했습니다. 코스닥도 4%대 올랐습니다. 이틀 전 미국 증시가 크게 오르고 국제 유가가 내린 영향으로 보입니다.",
+          "sources": [
+            {
+              "name": "연합뉴스TV(네이트)",
+              "url": "https://m.news.nate.com/view/20261110n24981"
+            },
+            {
+              "name": "아시아경제",
+              "url": "https://view.asiae.co.kr/article/2026111015360749190"
+            }
+          ]
+        },
+        {
+          "title": "뉴욕 증시 이틀째 힘 받고 기름값 내려",
+          "summary": "9일 미국 주요 주가지수가 모두 2% 넘게 올랐습니다. 이란과의 협상이 진전되면 추가 공격이 없을 것이라는 말이 나오며 국제 유가는 크게 떨어졌습니다.",
+          "sources": [
+            {
+              "name": "한국금융신문",
+              "url": "https://www.fntimes.com/html/view.php?ud=202611100710183972141825007d_18"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "사회",
+      "items": [
+        {
+          "title": "송도 어린이집 앞 방화범 검거 등 사건사고",
+          "summary": "인천 송도의 어린이집 앞에서 불을 지른 60대 남성이 붙잡혔고 다친 사람은 없었습니다. 같은 날 평택과 고흥의 공사·공장 현장에서 작업자가 떨어져 숨지는 사고가 이어졌습니다. 여수 신생아 사망 사건 친모의 첫 재판도 열렸습니다.",
+          "sources": [
+            {
+              "name": "데일리25",
+              "url": "https://www.daily25news.com/news/articleView.html?idxno=8793"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "IT·과학",
+      "items": [
+        {
+          "title": "엔비디아 CEO 논란, 이사회가 직접 조사",
+          "summary": "엔비디아 젠슨 황 대표가 중국 정보기관과 연결됐을 수 있는 회사의 전직 임원과 부적절한 관계였다고 인정했습니다. 회사 이사회는 외국 정보기관이 개입했는지 독립 조사를 시작했습니다. 미국 대통령은 미국 연방수사국(FBI)이 살펴보고 있다고 말했습니다.",
+          "sources": [
+            {
+              "name": "AI타임스",
+              "url": "https://www.aitimes.com/news/articleView.html?idxno=217203"
+            }
+          ]
+        },
+        {
+          "title": "앤트로픽, 새 최상위 AI 모델 공개",
+          "summary": "앤트로픽이 9일 새 최상위 AI 모델 두 가지를 내놓았습니다. 외부 성능 평가에서 구글 모델을 앞서 1위를 되찾았다고 합니다. 사용 요금은 이전보다 20% 낮췄습니다.",
+          "sources": [
+            {
+              "name": "AI타임스",
+              "url": "https://www.aitimes.com/news/articleView.html?idxno=217196"
+            }
+          ]
+        },
+        {
+          "title": "구글, AI 비서용·보안용 칩 추가",
+          "summary": "구글이 자체 AI 반도체 라인업에 새 칩 두 종류를 더했습니다. 하나는 AI 비서 작업에 맞춰 성능을 두 배로 키웠고, 다른 하나는 계산 중에도 데이터를 보호합니다. 가격은 공개되지 않았습니다.",
+          "sources": [
+            {
+              "name": "AI타임스",
+              "url": "https://www.aitimes.com/news/articleView.html?idxno=217211"
+            }
+          ]
+        },
+        {
+          "title": "스페이스X, 텍사스에 대형 AI 데이터센터 추진",
+          "summary": "스페이스X가 텍사스에 약 240억 달러를 들여 AI 데이터센터와 자체 발전소를 짓겠다는 계획을 냈습니다. 미국에서는 데이터센터 반대 여론이 커지고 있어 12월 지역 위원회 검토가 주목됩니다.",
+          "sources": [
+            {
+              "name": "AI타임스",
+              "url": "https://www.aitimes.com/news/articleView.html?idxno=217214"
+            }
+          ]
+        },
+        {
+          "title": "바퀴 달린 아틀라스, 제자리 한 바퀴 점프",
+          "summary": "보스턴 다이내믹스가 발목에 바퀴를 단 로봇 아틀라스 영상을 공개했습니다. 달리다가 한 바퀴 돌며 뛰어오르는 모습입니다. 판매용이 아닌 연구용이며, 배운 기술은 걷는 아틀라스에 쓸 예정입니다.",
+          "sources": [
+            {
+              "name": "AI타임스",
+              "url": "https://www.aitimes.com/news/articleView.html?idxno=217222"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "국제",
+      "items": [
+        {
+          "title": "미국·이란, 카타르 중재 속 종전 놓고 팽팽",
+          "summary": "트럼프 대통령이 카타르 총리를 만나 전쟁이 사실상 끝났다고 말했습니다. 이란은 협상설을 부인하며 해상 봉쇄 해제와 동결 자산 해제 등 7개 조건을 고집합니다. 아직 뚜렷한 돌파구는 보이지 않습니다.",
+          "sources": [
+            {
+              "name": "알자지라",
+              "url": "https://www.aljazeera.com/news/2026/11/10/positive-momentum-is-the-us-war-on-iran-about-to-end"
+            }
+          ]
+        },
+        {
+          "title": "러시아·우크라이나, 아부다비서 마주 앉아",
+          "summary": "미국 중재로 두 나라 대표단이 아랍에미리트 아부다비에서 이틀 일정으로 협상을 시작했습니다. 우크라이나 대통령은 첫날 분위기가 좋았다고 했습니다. 영토 문제는 마지막에 다룰 전망이라 일부 분석가는 이번에 합의가 나오기 어렵다고 봅니다.",
+          "sources": [
+            {
+              "name": "알자지라",
+              "url": "https://www.aljazeera.com/news/2026/11/10/russia-ukraine-and-us-to-meet-as-zelenskyy-claims-battlefield-successes"
+            }
+          ]
+        },
+        {
+          "title": "미국 국방장관 탄핵안, 같은 당 의원이 발의",
+          "summary": "공화당 소속 하원의원이 헤그세스 국방장관의 탄핵안을 냈습니다. 의회 승인 없이 이란 전쟁을 이끌었다는 이유 등입니다. 이르면 이번 주 하원 표결이 가능하지만 상원 문턱이 높아 실제로 물러날 가능성은 낮습니다.",
+          "sources": [
+            {
+              "name": "알자지라",
+              "url": "https://www.aljazeera.com/news/2026/11/10/hegseth-impeachment-what-is-he-accused-of-and-could-he-be-removed"
+            }
+          ]
+        },
+        {
+          "title": "이스라엘 새 의회 시작, 연립정부 구성 난항",
+          "summary": "지난달 총선 뒤 새 의회가 문을 열었습니다. 대통령은 다시 선거를 치르지 않도록 양보하라고 당부했습니다. 총리 후보로 지명된 정치인은 28일 안에 과반을 모아야 하지만 아직 부족한 상황입니다.",
+          "sources": [
+            {
+              "name": "알자지라",
+              "url": "https://www.aljazeera.com/news/2026/11/10/israeli-president-warns-against-repeat-election-in-new-knesset-session"
+            }
+          ]
+        },
+        {
+          "title": "스페인, 틱톡 임시 중단 요청",
+          "summary": "스페인 정부가 아동 대상 불법 영상과 의심 계정이 많다는 민간 조사를 근거로 틱톡의 임시 중단을 당국에 요청했습니다. 틱톡은 조사 결과를 검토하겠다고 밝혔습니다.",
+          "sources": [
+            {
+              "name": "알자지라",
+              "url": "https://www.aljazeera.com/news/2026/11/10/spanish-probe-finds-over-20000-suspected-paedophile-profiles-on-tiktok"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

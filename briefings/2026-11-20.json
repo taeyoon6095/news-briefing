@@ -1,0 +1,229 @@
+{
+  "date": "2026-11-20",
+  "generated_at": "2026-11-20T07:00:00+09:00",
+  "headline_summary": [
+    "서울 지하철 노조, 오늘 새벽 준법투쟁 돌입",
+    "앤트로픽, 나스닥 상장 첫날 17% 상승",
+    "미중러 정상회담에 유럽은 선 긋기"
+  ],
+  "top_story": {
+    "title": "지하철 노조 오늘부터 준법투쟁",
+    "summary": "서울교통공사 노조가 오늘 새벽부터 준법투쟁을 시작했습니다. 안전 인력을 늘리고 구조조정안을 거두라는 요구입니다. 열차는 정상 운행하지만 환승역 등에서 출퇴근 지연과 혼잡이 예상됩니다. 협상이 깨지면 25일 총파업에 나설 계획이고, 철도노조도 23일 준법투쟁에 합류합니다.",
+    "section": "종합",
+    "sources": [
+      {
+        "name": "연합뉴스(한민족센터)",
+        "url": "https://www.koreancenter.or.kr/news/articleView.html?idxno=1442533"
+      },
+      {
+        "name": "문화일보(다음뉴스)",
+        "url": "https://v.daum.net/v/20261120064756266"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "name": "종합",
+      "items": [
+        {
+          "title": "트럼프 아시아 순방, 뚜렷한 성과 없어",
+          "summary": "중간선거 패배로 입지가 좁아진 트럼프 대통령이 이번 아시아 순방에서 뚜렷한 성과를 내지 못했다는 분석이 나왔습니다. 기대를 모았던 북미 대화도 열리지 않았습니다.",
+          "sources": [
+            {
+              "name": "연합뉴스(한민족센터)",
+              "url": "https://www.koreancenter.or.kr/news/articleView.html?idxno=1442536"
+            }
+          ]
+        },
+        {
+          "title": "수능 날 재난문자 발송, 수험생 22명 적발",
+          "summary": "수능 당일 아침 위급재난문자가 울렸을 때 휴대전화를 제출하지 않은 수험생 22명이 적발됐습니다. 첨단기기를 이용한 부정행위가 확인되면 경찰에 넘겨질 수 있습니다.",
+          "sources": [
+            {
+              "name": "연합뉴스(한민족센터)",
+              "url": "https://www.koreancenter.or.kr/news/articleView.html?idxno=1442099"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "경제",
+      "items": [
+        {
+          "title": "코스피 5138 마감, 이틀째 올랐다",
+          "summary": "어제 코스피는 1.39% 올라 5137.89로 마쳤습니다. 한중 정상회담 소식에 엔터·화장품 주식이 크게 올랐습니다. 외국인은 5거래일째 팔았고, 환율은 1330원이었습니다.",
+          "sources": [
+            {
+              "name": "인더스트리뉴스",
+              "url": "https://www.industrynews.co.kr/news/articleView.html?idxno=89895"
+            },
+            {
+              "name": "코리아리포트",
+              "url": "https://www.koreareport.co.kr/news/articleView.html?idxno=54937"
+            }
+          ]
+        },
+        {
+          "title": "LG디스플레이, 3조원 대형 OLED 투자 접어",
+          "summary": "LG디스플레이가 파주 공장의 10.5세대 OLED 투자 계획을 거뒀습니다. 대형 OLED 시장이 가라앉았고 수익성을 우선하겠다는 이유입니다. 대신 기존 설비로 모니터용 수요에 대응합니다.",
+          "sources": [
+            {
+              "name": "ZDNet Korea",
+              "url": "https://zdnet.co.kr/view/?no=20261120013247"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "사회",
+      "items": [
+        {
+          "title": "LEET 만점자 숨진 채 발견, 수사는 계속",
+          "summary": "AI 부정행위 의혹을 받던 법학적성시험 최고 득점자가 어제 숙박업소에서 숨진 채 발견됐습니다. 경찰은 부검으로 사인을 확인하고 의혹 수사도 이어갑니다. 서울시교육청은 이씨가 응시한 학교에 수능 문답지를 폐기하지 않도록 안내했습니다.",
+          "sources": [
+            {
+              "name": "한국일보(다음뉴스)",
+              "url": "https://v.daum.net/v/20261120043144518"
+            }
+          ]
+        },
+        {
+          "title": "논술·면접 AI 부정행위 막기 총력",
+          "summary": "대학들이 논술·면접에서 AI 커닝을 막으려 안경 검사와 금속탐지기를 씁니다. 197개 대학이 엄정 대응하기로 했습니다. 대학별 고사는 내일부터 12월까지 이어집니다.",
+          "sources": [
+            {
+              "name": "뉴스1(다음뉴스)",
+              "url": "https://v.daum.net/v/20261120061133826"
+            }
+          ]
+        },
+        {
+          "title": "동거인 폭행 사망, 구형보다 무거운 30년",
+          "summary": "법원이 동거하던 여성을 오래 폭행해 숨지게 한 24세 남성에게 징역 30년을 선고했습니다. 검찰 구형보다 10년 무겁습니다. 재판부는 장기간 폭력과 가스라이팅을 인정했습니다.",
+          "sources": [
+            {
+              "name": "문화일보(다음뉴스)",
+              "url": "https://v.daum.net/v/20261119225439115"
+            }
+          ]
+        },
+        {
+          "title": "대법원, 휴게시간 소송서 노동자 패소 확정",
+          "summary": "골프장·리조트 노동자들이 휴게시간이 보장되지 않았다며 낸 임금소송에서 대법원이 원고 패소를 확정했습니다. 빈 객실을 휴게공간으로 쓸 수 있었고 대기 위주 업무라고 봤습니다.",
+          "sources": [
+            {
+              "name": "매일노동뉴스(다음뉴스)",
+              "url": "https://v.daum.net/v/20261120063237120"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "IT·과학",
+      "items": [
+        {
+          "title": "앤트로픽 나스닥 상장, 첫날 17% 상승",
+          "summary": "앤트로픽이 나스닥에 상장해 약 813억 달러를 모았습니다. 역대 최대 규모 기업공개입니다. 공모가 83달러보다 17% 오른 97.17달러로 첫날을 마쳤습니다.",
+          "sources": [
+            {
+              "name": "ZDNet Korea",
+              "url": "https://zdnet.co.kr/view/?no=20261120041622"
+            },
+            {
+              "name": "아주경제(다음뉴스)",
+              "url": "https://v.daum.net/v/20261120061901901"
+            }
+          ]
+        },
+        {
+          "title": "AI에게 수능 풀게 했더니 만점 모델 등장",
+          "summary": "AI에게 올해 수능을 풀게 한 결과가 공개됐습니다. 유료 최상위 모델 둘은 450점 만점이었습니다. 무료 모델 중에는 중국 키미가 438점으로 가장 높았고, 국산 솔라 프로 4는 392.8점이었습니다.",
+          "sources": [
+            {
+              "name": "이데일리(다음뉴스)",
+              "url": "https://v.daum.net/v/20261120065030303"
+            }
+          ]
+        },
+        {
+          "title": "정부, 6G 통신망 AI 운영 개발에 8천억",
+          "summary": "정부가 6G 통신망을 AI가 스스로 운영하는 기술 개발에 2028년부터 5년간 8천억 원을 씁니다. 2030년까지 핵심 기술을 만들고 2031~2032년에 실증할 계획입니다.",
+          "sources": [
+            {
+              "name": "디지털데일리(다음뉴스)",
+              "url": "https://v.daum.net/v/20261120064933294"
+            }
+          ]
+        },
+        {
+          "title": "NASA 지구관측위성 테라, 27년 임무 끝",
+          "summary": "NASA의 테라 위성이 12월 1일부터 과학 자료 수집을 멈추고 내년 1월 전원을 끕니다. 설계 수명은 6년이었지만 27년을 버텼습니다. 그동안 쌓은 자료는 계속 무료로 공개됩니다.",
+          "sources": [
+            {
+              "name": "서울신문(다음뉴스)",
+              "url": "https://v.daum.net/v/20261119135640329"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "국제",
+      "items": [
+        {
+          "title": "미중러 선전 회담, 유럽은 합의 거부",
+          "summary": "트럼프·푸틴·시진핑이 중국 선전에서 만나 평화 선언을 냈지만 우크라이나는 빠졌습니다. 유럽 지도부는 영향권을 나누는 식의 합의를 받아들이지 않겠다고 했습니다. 러시아와 직접 대화할 공동 협상팀도 꾸립니다.",
+          "sources": [
+            {
+              "name": "유로뉴스",
+              "url": "https://www.euronews.com/2026/11/19/european-leaders-reject-yalta-20-deal-for-ukraine-after-trump-meets-putin-and-xi"
+            }
+          ]
+        },
+        {
+          "title": "ICJ, 미얀마 로힝야 집단학살 인정",
+          "summary": "국제사법재판소가 9대 6으로 미얀마의 로힝야족 집단학살 책임을 인정했습니다. 국가의 책임을 인정한 것은 재판소 역사상 처음입니다. 구속력은 있지만 집행 수단이 없습니다.",
+          "sources": [
+            {
+              "name": "유로뉴스",
+              "url": "https://www.euronews.com/2026/11/19/myanmar-guilty-of-genocide-against-rohingya-un-court-rules"
+            }
+          ]
+        },
+        {
+          "title": "IEA, 중동 분쟁을 최대 에너지 위협으로 경고",
+          "summary": "국제에너지기구가 호르무즈 해협 봉쇄로 이어진 중동 분쟁을 역대 가장 큰 에너지 안보 위협이라고 밝혔습니다. 공급망은 아직 정상화되지 않았고 소비자 부담이 커지고 있습니다.",
+          "sources": [
+            {
+              "name": "유로뉴스",
+              "url": "https://www.euronews.com/2026/11/19/middle-east-conflict-poses-biggest-threat-to-global-energy-security-in-history-iea-warns"
+            }
+          ]
+        },
+        {
+          "title": "이라크 총리, 친이란 무장단체에 철수 통보",
+          "summary": "이라크 총리가 친이란 무장단체 카타이브 헤즈볼라에 금요일까지 바그다드 남쪽 지역에서 나가라고 했습니다. 정부는 석유 밀수 증거를 찾았다고 밝혔고, 단체는 조작이라며 반발합니다.",
+          "sources": [
+            {
+              "name": "유로뉴스",
+              "url": "https://www.euronews.com/2026/11/19/iraq-orders-armed-factions-to-withdraw-from-strategic-area-amid-alleged-oil-smuggling-and-"
+            }
+          ]
+        },
+        {
+          "title": "미중 정상, AI 규제 두고 입장 갈려",
+          "summary": "APEC 계기 미중 회담에서 트럼프는 세계적 AI 규제에 반대했습니다. 시진핑은 AI를 사람이 통제하도록 협력하자고 했습니다. 두 나라는 AI 사고 때 쓸 긴급 소통 채널도 조율 중입니다.",
+          "sources": [
+            {
+              "name": "유로뉴스",
+              "url": "https://www.euronews.com/2026/11/19/us-president-trump-rejects-global-ai-regulation-as-chinas-xi-calls-for-cooperation-on-safe"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

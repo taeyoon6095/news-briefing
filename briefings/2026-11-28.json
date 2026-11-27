@@ -1,0 +1,174 @@
+{
+  "date": "2026-11-28",
+  "generated_at": "2026-11-28T06:55:00+09:00",
+  "headline_summary": [
+    "코스피 급등, 4900선 되찾았어요",
+    "학교 비정규직 파업, 급식 차질",
+    "오픈AI, 애플에 맞소송 제기"
+  ],
+  "top_story": {
+    "title": "코스피 하루 4%대 급등, 4900선 회복",
+    "summary": "27일 코스피가 4% 넘게 오르며 3거래일 만에 4900선을 되찾았어요. 코스닥도 크게 올라 오전에 매수 사이드카(급등 때 프로그램 매수를 잠시 멈추는 제도)가 발동됐어요. 외국인이 1조 원 넘게 사들였고 환율은 내렸어요. 당국이 증시안정펀드를 20조 원 이상으로 늘리는 방안을 검토한다는 기대도 힘이 됐어요.",
+    "section": "종합",
+    "sources": [
+      {
+        "name": "폴리뉴스",
+        "url": "https://www.polinews.co.kr/news/articleView.html?idxno=749449"
+      },
+      {
+        "name": "서울신문",
+        "url": "https://www.seoul.co.kr/news/economy/securities/2026/11/27/20261127500238"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "name": "경제",
+      "items": [
+        {
+          "title": "삼성전자, 역대 최대 30조 배당 지급",
+          "summary": "삼성전자가 27일 3분기 배당금으로 약 30조 원을 주주에게 지급했어요. 국내 기업 가운데 가장 큰 규모예요. 특별배당이 포함됐고, 남은 재원 사용처는 내년 1월 말 이사회에서 정해져요.",
+          "sources": [
+            {
+              "name": "서울신문",
+              "url": "https://www.seoul.co.kr/news/economy/industry/2026/11/27/20261127500134"
+            }
+          ]
+        },
+        {
+          "title": "중동 불안에 국제유가 3주 만에 반등",
+          "summary": "27일 브렌트유가 배럴당 97달러대로 올랐어요. 이란의 선박 공격과 후티 반군의 사우디 정유시설 타격이 영향을 줬어요. 3주 이어진 하락세가 멈출 조짐이에요.",
+          "sources": [
+            {
+              "name": "서울신문",
+              "url": "https://www.seoul.co.kr/news/economy/2026/11/27/20261127500303"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "사회",
+      "items": [
+        {
+          "title": "학교 비정규직 하루 파업, 급식 곳곳 차질",
+          "summary": "전국 학교 비정규직 노동자가 27일 하루 파업에 들어갔어요. 급식 대상 학교 3곳 중 1곳꼴로 정상 급식이 어려워 빵과 우유로 대신했어요. 초등 돌봄교실도 일부 멈췄어요. 임금 교섭은 아직 타결되지 않았어요.",
+          "sources": [
+            {
+              "name": "서울신문",
+              "url": "https://seoul.co.kr/news/society/education-news/2026/11/27/20261127500257"
+            },
+            {
+              "name": "시대일보",
+              "url": "https://www.sidae.com/article/2026112717284966214"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "IT·과학",
+      "items": [
+        {
+          "title": "오픈AI, 애플 상대로 맞소송",
+          "summary": "오픈AI가 27일 미국 법원에 애플을 상대로 맞소송을 냈어요. 애플이 부품업체를 압박해 자사의 기기 사업을 방해했다는 주장이에요. 7월 애플이 낸 영업비밀 소송에 대한 대응이에요.",
+          "sources": [
+            {
+              "name": "연합뉴스",
+              "url": "https://v.daum.net/v/20261128060429855"
+            },
+            {
+              "name": "디지털데일리",
+              "url": "https://v.daum.net/v/20261128063850174"
+            }
+          ]
+        },
+        {
+          "title": "엔비디아 칩, 중국행 거래 길 막혔다",
+          "summary": "엔비디아 칩 판매상들이 AI 컴퓨팅 임대업체에 중국으로 자원이 흘러가면 공급을 끊겠다고 알렸어요. 미국의 원격 접속 규제가 19일 시작된 영향이에요. 동남아행 서버 출하도 잠시 멈췄어요.",
+          "sources": [
+            {
+              "name": "매일경제",
+              "url": "https://v.daum.net/v/20261128062113051"
+            }
+          ]
+        },
+        {
+          "title": "올리브영 내부 시스템 해킹, 790명 정보 유출",
+          "summary": "올리브영이 26일 외부 공격으로 내부 시스템이 뚫렸다고 알렸어요. 유출된 사람은 임직원과 협력사 직원 등 790명이고 고객은 45명이에요. 회원번호 등 데이터는 약 240만 건이에요. 이 시스템은 정보보호 인증 범위 밖이었어요.",
+          "sources": [
+            {
+              "name": "머니투데이",
+              "url": "https://v.daum.net/v/20261128061123979"
+            }
+          ]
+        },
+        {
+          "title": "귤 껍질 성분으로 나노플라스틱 걸러낸다",
+          "summary": "고려대 연구팀이 귤 껍질 속 리모넨과 물을 얼렸다 녹이는 방법을 내놨어요. 영하 20도에서 약 70%, 드라이아이스 환경에서는 95%가량 걸러졌어요. 냉각 비용을 줄이는 것이 숙제예요.",
+          "sources": [
+            {
+              "name": "YTN",
+              "url": "https://v.daum.net/v/20261128061010955"
+            }
+          ]
+        },
+        {
+          "title": "메모리 중심 한국형 AI 데이터센터 제안",
+          "summary": "AI 반도체 기업 파네시아 대표가 27일 국산 메모리와 가속기를 묶은 데이터센터 구상을 밝혔어요. 메모리를 서버 밖에서 함께 쓰는 기술이 핵심이에요. 해외 시장 수출도 노리고 있어요.",
+          "sources": [
+            {
+              "name": "이데일리",
+              "url": "https://v.daum.net/v/20261128061831038"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "국제",
+      "items": [
+        {
+          "title": "우크라 \"북한이 러시아 지원 멈췄다\" 주장",
+          "summary": "우크라이나 군 정보당국이 북한이 러시아에 대한 군사지원을 멈췄다고 주장했어요. 러시아와 북한은 아직 사실 여부를 밝히지 않았어요. 우크라이나 쪽 주장이라 확인이 더 필요해요.",
+          "sources": [
+            {
+              "name": "Euronews",
+              "url": "https://www.euronews.com/2026/11/27/north-korea-halts-russia-military-aid-over-seoul-row-kyiv-says"
+            }
+          ]
+        },
+        {
+          "title": "러시아 드론 공습, 우크라 전력·철도 피해",
+          "summary": "러시아가 드론 155대를 날렸고 우크라이나가 110대를 막았어요. 철도와 에너지 시설이 피해를 입어 일부 지역이 정전됐고 사망자도 나왔어요. 우크라이나는 전력 수출을 전면 중단했어요.",
+          "sources": [
+            {
+              "name": "Euronews",
+              "url": "https://www.euronews.com/2026/11/27/russian-drone-strikes-hit-ukraines-energy-rail-and-civilian-infrastructure-causing-deaths"
+            }
+          ]
+        },
+        {
+          "title": "에스토니아, 12월 1일 러시아 국경 닫는다",
+          "summary": "에스토니아 외무장관이 12월 1일 러시아와의 국경을 닫겠다고 밝혔어요. 러시아의 방해 공작 등 유럽 안보 위협에 대응하는 조치라고 설명했어요.",
+          "sources": [
+            {
+              "name": "Euronews",
+              "url": "https://www.euronews.com/2026/11/27/estonia-will-close-border-with-russia-to-secure-europe-foreign-minister-says-during-baku-v"
+            }
+          ]
+        },
+        {
+          "title": "스페인 총선 앞두고 극우 정당이 변수",
+          "summary": "스페인 조기 총선을 앞두고 보수 국민당이 앞서지만 혼자 집권하기는 어려워 보여요. 3위 복스가 연정의 열쇠를 쥘 수 있어요. 유권자는 집값 문제를 가장 걱정해요.",
+          "sources": [
+            {
+              "name": "Euronews",
+              "url": "https://www.euronews.com/2026/11/27/spain-general-election-is-vox-set-to-be-the-kingmaker-and-how-crucial-is-the-housing-issue"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
